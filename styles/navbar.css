@@ -4,15 +4,15 @@
   justify-content: space-between;
   align-items: center;
   font-family: "Open Sans", sans-serif;
-  background-color: var(--nav-bg-color);
+  background-color: rgb(226, 226, 226);
   padding: 20px 10px;
 }
-header .logo {
+.logo {
   font-weight: 800;
   font-size: 30px;
   cursor: pointer;
 }
-header .logo span {
+.logo span {
   color: var(--primary-color);
 }
 /* navItem styles  */
@@ -30,7 +30,7 @@ nav ul li a {
   color: black;
   margin-right: 20px;
 }
-nav .nav_btn {
+.btn-primary {
   padding: 10px 10px;
   background-color: var(--bg-color);
   border: none;

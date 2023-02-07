@@ -1,13 +1,37 @@
 * {
   margin: 0;
   padding: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 }
-/* fonts  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 /* Css variable */
 :root {
   --primary-color: #fd6e0a;
+  --dark1-color: #474747;
+  --dark2-color: #181818;
+  --dark3-color: #757575;
   --bg-color: #fd6e0a;
-  --nav-bg-color: rgb(233, 233, 233);
+}
+
+/* hero styles */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+}
+.hero h3 {
+  font-weight: 600;
+  font-size: 45px;
+  color: var(--dark1-color);
+}
+.hero h1 {
+  font-weight: 700;
+  font-size: 85px;
+  color: var(--dark2-color);
+}
+.hero p {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--dark3-color);
 }
