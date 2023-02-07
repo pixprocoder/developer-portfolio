@@ -78,7 +78,7 @@ main {
 }
 .about_info {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .about_info p {
@@ -86,10 +86,46 @@ main {
   font-size: 20px;
   color: var(--dark3-color);
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 .about_info h5 {
   font-weight: 700;
   font-size: 20px;
   color: var(--dark2-color);
+}
+
+/* Portfolio styles */
+.portfolio {
+  margin-top: 130px;
+  border: 2px solid;
+  background-color: #fff8f3;
+  border-radius: 10px;
+}
+.portfolio_header {
+  padding: 130px 156px;
+}
+
+.portfolio_card_container {
+  display: flex;
+  gap: 24px;
+}
+.portfolio_card_container img {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 30px;
+}
+.portfolio_card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #ffffff;
+}
+.card_title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--dark1-color);
+}
+.card_description {
+  color: var(--dark3-color);
 }
