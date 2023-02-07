@@ -179,4 +179,37 @@ main {
 .resume_btn {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 113px;
+}
+
+footer {
+  max-width: 1140px;
+  margin: 0 auto;
+
+  background-color: #fff8f3;
+}
+.footer_content {
+  display: flex;
+  gap: 115px;
+}
+.contact h3,
+.contact_form h3 {
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--dark1-color);
+  margin-bottom: 30px;
+}
+form input,
+form textarea {
+  margin-bottom: 24px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+form input {
+  padding: 18px 350px 18px 30px;
+}
+
+.icons {
+  display: flex;
+  margin-top: 30px;
 }
