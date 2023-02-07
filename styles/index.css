@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Css variable */
+:root {
+  --primary-color: #fd6e0a;
+  --bg-color: #fd6e0a;
+  --nav-bg-color: rgb(233, 233, 233);
+}

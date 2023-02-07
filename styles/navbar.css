@@ -2,16 +2,40 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--nav-bg-color);
+  padding: 20px 10px;
+}
+header .logo {
+  font-weight: 800;
+  font-size: 30px;
+  cursor: pointer;
+}
+header .logo span {
+  color: var(--primary-color);
 }
 /* navItem styles  */
 nav ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 nav ul li {
   list-style: none;
 }
+
 nav ul li a {
   text-decoration: none;
   color: black;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+nav .nav_btn {
+  padding: 10px 10px;
+  background-color: var(--bg-color);
+  border: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
 }
