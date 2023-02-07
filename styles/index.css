@@ -119,7 +119,9 @@ main {
   display: flex;
   flex-direction: column;
   padding: 30px;
-  background-color: #ffffff;
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
 .skill_title {
   font-weight: 700;
@@ -129,4 +131,49 @@ main {
 }
 .skill_description {
   color: var(--dark3-color);
+  text-align: left;
+}
+
+/* Resume section Styles */
+.resume {
+  margin-top: 130px;
+}
+.resume > h3 {
+  margin-bottom: 113px;
+}
+.resume_parent h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--dark2-color);
+  margin-bottom: 30px;
+}
+.resume_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+.resume_card_container {
+  display: flex;
+  flex-direction: column;
+}
+.resume_card {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #d1d1d1;
+}
+.resume_title {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 30px;
+  color: var(--dark2-color);
+}
+.resume_sub_title {
+  margin: 10px 0 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--dark3-color);
+}
+.resume_description {
+  color: var(--dark3-color);
+  margin-bottom: 30px;
 }
