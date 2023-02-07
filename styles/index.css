@@ -105,27 +105,28 @@ main {
   padding: 130px 156px;
 }
 
-.portfolio_card_container {
+/* skill card  */
+.skills_container {
   display: flex;
   gap: 24px;
 }
-.portfolio_card_container img {
+.skills_container img {
   width: 44px;
   height: 44px;
   margin-bottom: 30px;
 }
-.portfolio_card {
+.skill {
   display: flex;
   flex-direction: column;
   padding: 30px;
   background-color: #ffffff;
 }
-.card_title {
+.skill_title {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 20px;
   color: var(--dark1-color);
 }
-.card_description {
+.skill_description {
   color: var(--dark3-color);
 }
