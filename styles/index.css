@@ -4,7 +4,10 @@
   @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
   font-family: "Open Sans", sans-serif;
 }
-
+body {
+  margin: 0 auto;
+  max-width: 1600px;
+}
 /* Css variable */
 :root {
   --primary-color: #fd6e0a;
@@ -30,7 +33,7 @@
 .hero_title {
   font-weight: 700;
   font-size: 85px;
-  color: var(--dark2-color);
+  color: #181818;
   margin-bottom: 15px;
 }
 .hero_description {
@@ -40,10 +43,12 @@
   color: var(--dark3-color);
 }
 .hero_contact_btn {
-  padding: 10px 10px;
+  padding: 18px 17px;
   border: 1px solid #fd6e0a;
   color: var(--primary-color);
   font-weight: 700;
+  font-size: 20px;
+  margin-left: 30px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -182,34 +187,29 @@ main {
   margin-bottom: 113px;
 }
 
-footer {
-  max-width: 1140px;
-  margin: 0 auto;
-
+/* Contact section Styles */
+.contact {
+  display: flex;
   background-color: #fff8f3;
 }
-.footer_content {
-  display: flex;
-  gap: 115px;
+.contact .section_title {
+  text-align: left;
+  margin-bottom: 20px;
 }
-.contact h3,
-.contact_form h3 {
-  font-weight: 700;
-  font-size: 35px;
-  color: var(--dark1-color);
+.contact > div > p {
+  color: var(--dark2-color);
   margin-bottom: 30px;
 }
-form input,
-form textarea {
+.contact > div > a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  border: none;
+  padding: 18px 30px;
   margin-bottom: 24px;
-  border-radius: 5px;
-  background-color: #ffffff;
-}
-form input {
-  padding: 18px 350px 18px 30px;
-}
-
-.icons {
-  display: flex;
-  margin-top: 30px;
+  background: #ffffff;
 }
