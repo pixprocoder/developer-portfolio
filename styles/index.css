@@ -19,19 +19,31 @@
   justify-content: center;
   align-items: center;
   margin: 10px 20px;
+  font-family: "Open Sans", sans-serif;
 }
-.hero h3 {
+.hero_sub_title {
   font-weight: 600;
   font-size: 45px;
   color: var(--dark1-color);
+  margin-bottom: 5px;
 }
-.hero h1 {
+.hero_title {
   font-weight: 700;
   font-size: 85px;
   color: var(--dark2-color);
+  margin-bottom: 15px;
 }
-.hero p {
+.hero_description {
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 30px;
   color: var(--dark3-color);
+}
+.hero_contact_btn {
+  padding: 10px 10px;
+  border: 1px solid #fd6e0a;
+  color: var(--primary-color);
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
 }
